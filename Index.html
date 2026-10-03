@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NovaTools — Simple tools that just work</title>
+
+    <meta
+        name="description"
+        content="Free, simple and useful online tools from NovaTools."
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <a href="#" class="logo">
+            <span>✦</span> NovaTools
+        </a>
+
+        <nav>
+            <a href="#tools">Tools</a>
+            <a href="#about">About</a>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- HERO -->
+        <section class="hero">
+
+            <div class="badge">
+                ✨ Free online tools
+            </div>
+
+            <h1>
+                Simple tools.<br>
+                <span>Zero hassle.</span>
+            </h1>
+
+            <p>
+                Useful tools for students, creators, developers and
+                everyday internet users — all in one place.
+            </p>
+
+            <div class="search-box">
+                <span>⌕</span>
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="Search for a tool..."
+                >
+            </div>
+
+        </section>
+
+
+        <!-- TOOLS -->
+        <section class="tools-section" id="tools">
+
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">TOOLS</p>
+                    <h2>What do you need?</h2>
+                </div>
+            </div>
+
+
+            <div class="tools-grid" id="toolsGrid">
+
+                <article class="tool-card" data-name="calculator">
+                    <div class="tool-icon">🔢</div>
+
+                    <h3>Calculator</h3>
+
+                    <p>
+                        Perform quick calculations without leaving your browser.
+                    </p>
+
+                    <button onclick="openTool('calculator')">
+                        Open tool →
+                    </button>
+                </article>
+
+
+                <article class="tool-card" data-name="word counter text counter">
+                    <div class="tool-icon">🔤</div>
+
+                    <h3>Word Counter</h3>
+
+                    <p>
+                        Count words, characters and sentences instantly.
+                    </p>
+
+                    <button onclick="openTool('word-counter')">
+                        Open tool →
+                    </button>
+                </article>
+
+
+                <article class="tool-card" data-name="qr code generator">
+                    <div class="tool-icon">▦</div>
+
+                    <h3>QR Generator</h3>
+
+                    <p>
+                        Turn a link or text into a QR code.
+                    </p>
+
+                    <button onclick="openTool('qr')">
+                        Open tool →
+                    </button>
+                </article>
+
+
+                <article class="tool-card" data-name="color picker">
+                    <div class="tool-icon">🎨</div>
+
+                    <h3>Color Picker</h3>
+
+                    <p>
+                        Choose a color and instantly get its HEX value.
+                    </p>
+
+                    <button onclick="openTool('color')">
+                        Open tool →
+                    </button>
+                </article>
+
+
+                <article class="tool-card" data-name="unit converter">
+                    <div class="tool-icon">📏</div>
+
+                    <h3>Unit Converter</h3>
+
+                    <p>
+                        Convert common units quickly and easily.
+                    </p>
+
+                    <button onclick="openTool('converter')">
+                        Open tool →
+                    </button>
+                </article>
+
+
+                <article class="tool-card" data-name="image resizer">
+                    <div class="tool-icon">🖼️</div>
+
+                    <h3>Image Resizer</h3>
+
+                    <p>
+                        Resize images directly in your browser.
+                    </p>
+
+                    <button onclick="openTool('image')">
+                        Open tool →
+                    </button>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ABOUT -->
+        <section class="about" id="about">
+
+            <p class="eyebrow">ABOUT NOVATOOLS</p>
+
+            <h2>
+                Useful tools without the unnecessary complexity.
+            </h2>
+
+            <p>
+                NovaTools is built to make everyday digital tasks
+                faster, simpler and easier to access.
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>© 2026 NovaTools. Built with simplicity.</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+  </html>
